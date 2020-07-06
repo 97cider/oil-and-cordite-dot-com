@@ -1,5 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import { BootstrapVueIcons } from 'bootstrap-vue'
+import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
+
+Vue.use(BootstrapVueIcons);
 
 Vue.use(VueRouter);
 
