@@ -11,11 +11,13 @@
 
 <script>
 import '../scss/style.scss';
+import Header from '../components/Header.vue';
 import HelloWorld from '../components/HelloWorld.vue';
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    Header
   }
 }
 </script>

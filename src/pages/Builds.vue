@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Header />
     <div>
       <img alt="Vue logo" src="src/assets/logo.png">
       <HelloWorld msg="Welcome to Your Vue.js App"/>
@@ -8,22 +9,15 @@
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld.vue'
+import '../scss/style.scss';
+import Header from '../components/Header.vue';
+import HelloWorld from '../components/HelloWorld.vue';
+
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Header
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
