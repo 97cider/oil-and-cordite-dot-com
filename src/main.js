@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import routes from './routes';
+import Routes from './routes';
 
 new Vue({
   el: '#app',
@@ -8,7 +8,7 @@ new Vue({
   },
   computed: {
     ViewComponent () {
-      const matchingView = routes[this.currentRoute]
+      const matchingView = Routes[this.currentRoute]
       return matchingView
         ? require('./pages/' + matchingView + '.vue').default
         : require('./pages/NotFound.vue').default

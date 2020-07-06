@@ -1,32 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    Croissant fruitcake cake icing bear claw gummies marzipan topping. Powder liquorice danish cotton candy jelly beans cheesecake dessert croissant bonbon. Brownie dessert bear claw pudding cookie wafer liquorice. Fruitcake lemon drops wafer croissant. Cupcake pudding candy gummies sweet roll tootsie roll sugar plum fruitcake. Powder carrot cake candy pie fruitcake pastry sweet roll. Jelly-o cake jujubes jelly icing tiramisu jelly apple pie cotton candy. Sugar plum dessert fruitcake tootsie roll gingerbread soufflé lollipop cheesecake. Chocolate bar apple pie tiramisu fruitcake. Candy carrot cake oat cake sugar plum. Croissant cupcake cheesecake dragée. Gummi bears cupcake chupa chups marzipan soufflé dragée pastry liquorice.
+
+Macaroon cookie lollipop chocolate bar brownie lollipop tiramisu. Candy canes candy canes muffin bonbon powder croissant jujubes cake icing. Danish chocolate cake dragée. Danish wafer soufflé sweet. Sweet danish cake jelly-o jelly beans. Toffee jelly bear claw. Cookie chocolate cheesecake carrot cake lemon drops. Jelly soufflé lollipop croissant bear claw. Marshmallow toffee jelly-o powder. Marshmallow carrot cake danish sweet roll carrot cake cotton candy jelly cheesecake. Danish icing cake icing bear claw cake tart chocolate bar. Jelly beans tiramisu pudding apple pie cotton candy.
+
+Cheesecake cake candy canes halvah. Cotton candy oat cake marshmallow. Gummies dragée muffin. Sweet roll cotton candy chocolate bar sesame snaps bonbon. Jelly beans chupa chups lemon drops marzipan fruitcake powder. Toffee pastry biscuit. Cheesecake marshmallow candy canes dragée muffin. Sweet roll jujubes wafer gummi bears dessert. Sugar plum cheesecake cheesecake cotton candy chupa chups macaroon gingerbread apple pie chocolate bar. Chocolate bar candy cotton candy jelly-o toffee. Croissant biscuit oat cake tart tootsie roll lollipop candy. Carrot cake chupa chups sesame snaps fruitcake chocolate.
   </div>
 </template>
 
