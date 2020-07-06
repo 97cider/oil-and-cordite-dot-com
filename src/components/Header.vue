@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     This is a generic global header bar with no buttons or routing because I am way too lazy
+
+    <router-link to="/foo">Go to Foo</router-link>
+    <router-link to="/bar">Go to Bar</router-link>
   </div>
 </template>
 
