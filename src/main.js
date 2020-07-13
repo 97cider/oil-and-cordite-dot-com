@@ -1,17 +1,19 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import { BootstrapVueIcons } from 'bootstrap-vue'
+import { BootstrapVue, BootstrapVueIcons, LayoutPlugin } from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
-
-Vue.use(BootstrapVueIcons);
-
-Vue.use(VueRouter);
 
 import Home from './pages/Home.vue';
 import Gallery from './pages/Gallery.vue';
 import NotFound from './pages/NotFound.vue';
 import TheTeam from './pages/TheTeam.vue';
 import Builds from './pages/Builds.vue';
+
+
+Vue.use(BootstrapVue);
+Vue.use(LayoutPlugin);
+Vue.use(BootstrapVueIcons);
+Vue.use(VueRouter);
 
 const routes = [
   { path: '/', component: Home },

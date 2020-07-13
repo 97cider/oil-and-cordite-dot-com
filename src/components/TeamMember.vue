@@ -4,20 +4,43 @@
     <div class="team-member-icon" v-bind:src="teamMember.iconPath"></div>
     <img v-bind:src="'/public/images/' + teamMember.iconPath" /> 
     <div class="team-member-description">{{ teamMember.description }}</div>
-    <h1 v-if="teamMember.websiteLink"><b-icon icon="link45deg" />{{ teamMember.websiteLink }}</h1>
-    <h1 v-if="teamMember.personalWebLink"><b-icon icon="link45deg" />{{ teamMember.personalWebLink }}</h1>
-    <h1 v-if="teamMember.linkedInLink"><b-icon icon="link45deg" />{{ teamMember.linkedInLink }}</h1>
+    <span v-if="teamMember.personalWebLink">
+      <b-button variant="primary">
+         <b-icon icon="award-fill" />
+      </b-button>
+    </span>
+    <span v-if="teamMember.twitterAt">
+      <b-button variant="primary">
+         <b-icon icon="at" />
+      </b-button>
+    </span>
+    <span v-if="teamMember.personalWebLink">
+      <b-button variant="primary">
+         <b-icon icon="link45deg" />
+      </b-button>
+    </span>
+    <span v-if="teamMember.linkedInLink">
+      <b-button variant="primary">
+         <b-icon icon="person-bounding-box" />
+      </b-button>
+    </span>
   </div>
 </template>
 
 <script>
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css';
-import { BIcon } from 'bootstrap-vue';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { BIcon, BButton, BContainer, BRow, BCol } from 'bootstrap-vue';
 
 export default {
   name: 'TeamMember',
   components: {
-    BIcon
+    BIcon,
+    BButton,
+    BContainer,
+    BRow,
+    BCol
   },
   props: {
     teamMember: {
@@ -25,6 +48,7 @@ export default {
       description: String,
       iconPath: String,
       websiteLink: String,
+      twitterAt: String,
       personalWebLink: String,
       linkedInLink: String
     }

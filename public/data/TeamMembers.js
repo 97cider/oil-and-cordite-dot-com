@@ -5,6 +5,7 @@ export default {
             description: "test desc",
             iconPath: "me.jpg",
             websiteLink: "www.google.com",
+            twitterAt: "@warmtapwater",
             personalWebLink: "www.seankmcfadden.com",
             linkedInLink: "www.google.com"
         },
@@ -13,6 +14,7 @@ export default {
             description: "test desc 2",
             iconPath: "icon",
             websiteLink: "www.google.com",
+            twitterAt: "@dril",
             personalWebLink: "www.seankmcfadden.com",
             linkedInLink: "www.google.com"
         }
