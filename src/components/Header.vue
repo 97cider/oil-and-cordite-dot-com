@@ -1,8 +1,8 @@
 <template>
   <div class="header-container">
-    This is a generic global header bar with no buttons or routing because I am way too lazy
-    
-    <b-container fluid="true">
+    <img class="team-logo" alt="group-logo" src="src/assets/logo.png">
+    <img class="title-logo" alt="title-logo" src="src/assets/title-logo.png">
+    <b-container fluid="true" class="header-links">
       <b-row class="justify-content-md-center" align-content="center">
         <b-col md="1" align-self="center">
           <router-link to="/">Home</router-link>

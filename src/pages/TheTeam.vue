@@ -2,7 +2,6 @@
   <div id="app">
     <Header />
     <div class="main">
-      <img alt="Vue logo" src="src/assets/logo.png">
       <li v-for="teamMember in teamMembers" :key="teamMember.name">
         <TeamMember v-bind:teamMember="teamMember" />
       </li>
