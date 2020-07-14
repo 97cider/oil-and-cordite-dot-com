@@ -44,12 +44,27 @@ body {
 
 .header-color-bar {
     height: 10px;
-    background-color: #60246c;
+    background: rgb(96,36,108);
+    background: -moz-linear-gradient(162deg, rgba(96,36,108,1) 0%, rgba(190,55,95,1) 47%, rgba(239,133,85,1) 80%, rgba(245,236,109,1) 100%);
+    background: -webkit-linear-gradient(162deg, rgba(96,36,108,1) 0%, rgba(190,55,95,1) 47%, rgba(239,133,85,1) 80%, rgba(245,236,109,1) 100%);
+    background: linear-gradient(162deg, rgba(96,36,108,1) 0%, rgba(190,55,95,1) 47%, rgba(239,133,85,1) 80%, rgba(245,236,109,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#60246c",endColorstr="#f5ec6d",GradientType=1);
 }
 
 .header-links {
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.team-header {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.team-header-sub {
+    color: #827886;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 .team-logo {

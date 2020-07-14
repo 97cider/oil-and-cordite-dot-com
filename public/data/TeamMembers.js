@@ -6,9 +6,9 @@ export default {
             role: "Graphics Programmer",
             iconPath: "me.jpg",
             websiteLink: "www.google.com",
-            twitterAt: "@warmtapwater",
-            personalWebLink: "www.seankmcfadden.com",
-            linkedInLink: "www.google.com"
+            twitterAt: "https://twitter.com/warmtapwater",
+            personalWebLink: "http://seankmcfadden.com",
+            linkedInLink: "https://www.linkedin.com/in/sean-mcfadden-27511612a/"
         },
         {
             name: "Test",

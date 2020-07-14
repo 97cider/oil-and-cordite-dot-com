@@ -24,28 +24,21 @@
               <b-row no-gutters="true">
                 <b-col md="1">
                   <span v-if="teamMember.personalWebLink">
-                    <b-button variant="link" class="team-member-icon">
-                      <b-icon icon="award-fill" font-scale="2"/>
-                    </b-button>
-                  </span>
-                </b-col>
-                <b-col md="1">
-                  <span v-if="teamMember.twitterAt">
-                    <b-button variant="link" class="team-member-icon">
-                      <b-icon icon="at" font-scale="2"/>
-                    </b-button>
-                  </span>
-                </b-col>
-                <b-col md="1">
-                  <span v-if="teamMember.personalWebLink">
-                    <b-button variant="link" class="team-member-icon">
+                    <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.personalWebLink)">
                       <b-icon icon="link45deg" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
                 <b-col md="1">
+                  <span v-if="teamMember.twitterAt">
+                    <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.twitterAt)">
+                      <b-icon icon="at" font-scale="2"/>
+                    </b-button>
+                  </span>
+                </b-col>
+                <b-col md="1">
                   <span v-if="teamMember.linkedInLink">
-                    <b-button variant="link" class="team-member-icon">
+                    <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.linkedInLink)">
                       <b-icon icon="person-bounding-box" font-scale="2"/>
                     </b-button>
                   </span>
@@ -75,6 +68,11 @@ export default {
     BContainer,
     BRow,
     BCol
+  },
+  methods: {
+     urlClick: function(url) {
+      window.open(url, '_blank');
+    }
   },
   props: {
     teamMember: {

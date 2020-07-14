@@ -4,6 +4,8 @@
     <transition name="fade" appear="true">
       <div class="main-container"> 
         <div class="main">
+          <div class="team-header">The Team</div>
+          <div class="team-header-sub"><i>(as it currently stands).</i></div>
           <transition-group name="list" tag="p">
             <li v-for="teamMember in teamMembers" :key="teamMember.name">
               <TeamMember v-bind:teamMember="teamMember" />

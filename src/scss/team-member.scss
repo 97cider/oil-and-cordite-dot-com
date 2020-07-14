@@ -1,5 +1,5 @@
 .team-member-info {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .row-bg {
@@ -50,6 +50,10 @@
 
 .team-member-icon {
     color: #ef8555;
+
+    &:hover {
+        color: #be375f;
+    }
 }
 
 .btn:focus {

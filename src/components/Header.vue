@@ -17,7 +17,7 @@
           <router-link to="/Builds" class="header-link primary">Play</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <a class="header-link secondary">Github <b-icon icon="box-arrow-up-right"></b-icon></a>
+          <a href="https://github.com/PeterEldredge/OilAndCordite" target="_blank" class="header-link secondary">Github <b-icon icon="box-arrow-up-right"></b-icon></a>
         </b-col>
       </b-row>
     </b-container>
