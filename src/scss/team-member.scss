@@ -29,3 +29,8 @@
     text-align: left;
     font-size: 24px;
 }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }

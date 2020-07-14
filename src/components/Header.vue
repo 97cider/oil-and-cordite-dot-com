@@ -5,19 +5,19 @@
     <b-container fluid="true" class="header-links">
       <b-row class="justify-content-md-center" align-content="center">
         <b-col md="1" align-self="center">
-          <router-link to="/">Home</router-link>
+          <router-link to="/" class="header-link primary">Home</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/gallery">Gallery</router-link>
+          <router-link to="/gallery" class="header-link primary">Gallery</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/meet-the-team">The Team</router-link>
+          <router-link to="/meet-the-team" class="header-link primary">The Team</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/Builds">Play</router-link>
+          <router-link to="/Builds" class="header-link primary">Play</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <a>Github <b-icon icon="box-arrow-up-right"></b-icon></a>
+          <a class="header-link secondary">Github <b-icon icon="box-arrow-up-right"></b-icon></a>
         </b-col>
       </b-row>
     </b-container>

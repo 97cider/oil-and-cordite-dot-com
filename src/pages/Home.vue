@@ -1,12 +1,16 @@
 <template>
   <div id="app">
     <Header />
-    <div class="main">
-      <div class="game-description">
-        In a world choked by pollution and robbed of resources, wage a one-man war on what remains of the greedy nations and their robotic robbers. 
-        Ignite your ship and use the surrounding smog to blast through your enemies! 
+    <transition name="fade" appear="true">
+      <div class="main-container"> 
+        <div class="main">
+          <div class="game-description">
+            In a world choked by pollution and robbed of resources, wage a one-man war on what remains of the greedy nations and their robotic robbers. 
+            Ignite your ship and use the surrounding smog to blast through your enemies! 
+          </div>
+        </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 

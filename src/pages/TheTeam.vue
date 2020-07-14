@@ -1,11 +1,17 @@
 <template>
   <div id="app">
     <Header />
-    <div class="main">
-      <li v-for="teamMember in teamMembers" :key="teamMember.name">
-        <TeamMember v-bind:teamMember="teamMember" />
-      </li>
-    </div>
+    <transition name="fade" appear="true">
+      <div class="main-container"> 
+        <div class="main">
+          <transition-group name="list" tag="p">
+            <li v-for="teamMember in teamMembers" :key="teamMember.name">
+              <TeamMember v-bind:teamMember="teamMember" />
+            </li>
+          </transition-group>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 

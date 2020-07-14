@@ -9,7 +9,6 @@ import NotFound from './pages/NotFound.vue';
 import TheTeam from './pages/TheTeam.vue';
 import Builds from './pages/Builds.vue';
 
-
 Vue.use(BootstrapVue);
 Vue.use(LayoutPlugin);
 Vue.use(BootstrapVueIcons);

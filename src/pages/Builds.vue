@@ -1,9 +1,13 @@
 <template>
   <div id="app">
     <Header />
-    <div class="main">
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
-    </div>
+    <transition name="fade" appear="true">
+      <div class="main-container"> 
+        <div class="main">
+          <HelloWorld msg="Welcome to Your Vue.js App"/>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
