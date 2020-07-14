@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <Header/>
-    404 Not Found
-    Your request was lost in the clouds!
+    <div class="main">
+      404 Not Found
+      Your request was lost in the clouds!
+    </div>
   </div>
 </template>
 

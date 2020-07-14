@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <div>
+    <div class="main">
       <img alt="Vue logo" src="src/assets/logo.png">
-      <!--<TeamMember v-bind:teamMember="teamMember" /> -->
       <li v-for="teamMember in teamMembers" :key="teamMember.name">
         <TeamMember v-bind:teamMember="teamMember" />
       </li>
