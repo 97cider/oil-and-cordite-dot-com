@@ -4,7 +4,10 @@
     <transition name="fade" appear="true">
       <div class="main-container"> 
         <div class="main">
-          <HelloWorld msg="Welcome to Your Vue.js App"/>
+          <img class="gallery-image" alt="concept-art-one" src="public/images/gallery/concept-art-one.png">
+          <img class="gallery-image" alt="concept-art-one" src="public/images/gallery/concept-art-two.png">
+          <img class="gallery-image" alt="concept-art-one" src="public/images/gallery/concept-art-three.png">
+          <img class="gallery-image" alt="concept-art-one" src="public/images/gallery/concept-art-four.jpg">
         </div>
       </div>
     </transition>

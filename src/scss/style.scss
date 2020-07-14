@@ -101,6 +101,13 @@ h3 {
     color: #ef8555;
 }
 
+.gallery-image {
+    max-width:100%;
+    height:auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
 }
