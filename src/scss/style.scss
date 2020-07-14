@@ -101,6 +101,21 @@ h3 {
     color: #ef8555;
 }
 
+.download-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-button {
+    border-color: #ef8555 !important;
+    color: white !important;
+
+    &:hover {
+        background-color: #be375f !important;
+    }
+}
+
 .gallery-image {
     max-width:100%;
     height:auto;
