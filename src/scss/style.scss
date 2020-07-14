@@ -40,11 +40,16 @@ body {
     background-color: #212226;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+}
+
+.header-color-bar {
+    height: 10px;
+    background-color: #60246c;
 }
 
 .header-links {
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .team-logo {
@@ -59,14 +64,14 @@ body {
 }
 
 .header-link {
+    font-size: 18px;
     &.primary {
-        color: tomato;
+        color: #ef8555;
     }
     &.secondary {
-        color: aqua;
+        color: #be375f;
     }
-} 
-
+}
 
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
@@ -75,3 +80,4 @@ body {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
     opacity: 0;
 }
+

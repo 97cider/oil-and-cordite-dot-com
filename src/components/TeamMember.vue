@@ -1,10 +1,10 @@
 <template>
   <b-container class="team-member-info">
-    <b-row no-gutters="true">
+    <b-row class="row-bg" no-gutters="true">
       <b-col sm="4" md="3" lg="3">
         <img class="team-icon" v-bind:src="'/public/images/' + teamMember.iconPath" />
       </b-col>
-      <b-col sm="9" md="8" lg="9">
+      <b-col sm="9" md="8" lg="9" class="team-member-content">
         <b-row>
           <b-col md="12">
             <div class="team-member-name">
@@ -23,29 +23,29 @@
             <div class="team-member-links">
               <b-row no-gutters="true">
                 <b-col md="1">
-                  <span v-if="teamMember.personalWebLink" class="h1 mb-2">
-                    <b-button variant="link">
+                  <span v-if="teamMember.personalWebLink">
+                    <b-button variant="link" class="team-member-icon">
                       <b-icon icon="award-fill" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
                 <b-col md="1">
-                  <span v-if="teamMember.twitterAt" class="h1 mb-2">
-                    <b-button variant="link">
+                  <span v-if="teamMember.twitterAt">
+                    <b-button variant="link" class="team-member-icon">
                       <b-icon icon="at" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
                 <b-col md="1">
-                  <span v-if="teamMember.personalWebLink" class="h1 mb-2">
-                    <b-button variant="link">
+                  <span v-if="teamMember.personalWebLink">
+                    <b-button variant="link" class="team-member-icon">
                       <b-icon icon="link45deg" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
                 <b-col md="1">
-                  <span v-if="teamMember.linkedInLink" class="h1 mb-2">
-                    <b-button variant="link">
+                  <span v-if="teamMember.linkedInLink">
+                    <b-button variant="link" class="team-member-icon">
                       <b-icon icon="person-bounding-box" font-scale="2"/>
                     </b-button>
                   </span>
@@ -56,6 +56,7 @@
         </b-row>
       </b-col>
     </b-row>
+    <div class="team-member-role-type"></div>
   </b-container>
 </template>
 

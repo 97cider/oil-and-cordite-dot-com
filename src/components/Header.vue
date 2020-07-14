@@ -21,6 +21,7 @@
         </b-col>
       </b-row>
     </b-container>
+    <div class="header-color-bar"></div>
   </div>
 </template>
 
