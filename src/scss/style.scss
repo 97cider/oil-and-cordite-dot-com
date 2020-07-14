@@ -4,7 +4,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    overflow: hidden;
 }
 
 .header {
@@ -17,4 +17,12 @@
     list-style-type: none;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    background-color: tomato;
+    text-align: center;
 }

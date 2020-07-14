@@ -1,25 +1,43 @@
 <template>
-  <div class="Header">
+  <div class="header-container">
     This is a generic global header bar with no buttons or routing because I am way too lazy
-
-    <router-link to="/">Home</router-link>
-    <router-link to="/gallery">Gallery</router-link>
-    <router-link to="/meet-the-team">The Team</router-link>
-    <router-link to="/Builds">Play</router-link>
-    <a>Github <b-icon icon="exclamation-circle-fill" variant="success"></b-icon></a>
+    
+    <b-container fluid="true">
+      <b-row class="justify-content-md-center" align-content="center">
+        <b-col md="1" align-self="center">
+          <router-link to="/">Home</router-link>
+        </b-col>
+        <b-col md="1" align-self="center">
+          <router-link to="/gallery">Gallery</router-link>
+        </b-col>
+        <b-col md="1" align-self="center">
+          <router-link to="/meet-the-team">The Team</router-link>
+        </b-col>
+        <b-col md="1" align-self="center">
+          <router-link to="/Builds">Play</router-link>
+        </b-col>
+        <b-col md="1" align-self="center">
+          <a>Github <b-icon icon="box-arrow-up-right"></b-icon></a>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css';
-import { BIcon, BIconArrowUp, BIconArrowDown } from 'bootstrap-vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import '../scss/style.scss';
+import { BIcon, BContainer, BRow, BCol } from 'bootstrap-vue';
 
 export default {
   name: 'Header',
   components: {
     BIcon,
-    BIconArrowUp,
-    BIconArrowDown
+    BContainer,
+    BRow,
+    BCol
   },
   props: {
     msg: String
