@@ -29,6 +29,7 @@
 .team-member-description {
     text-align: left;
     padding-bottom: 12px;
+    padding-right: 15px;
 }
 
 .team-member-role {
@@ -59,4 +60,10 @@
 .btn:focus {
     outline: none;
     box-shadow: none;
+}
+
+.team-member-content-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

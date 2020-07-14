@@ -21,22 +21,22 @@
         <b-row>
           <b-col md="12">
             <div class="team-member-links">
-              <b-row no-gutters="true">
-                <b-col md="1">
+              <b-row>
+                <b-col v-if="teamMember.role" md="1">
                   <span v-if="teamMember.personalWebLink">
                     <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.personalWebLink)">
                       <b-icon icon="link45deg" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
-                <b-col md="1">
+                <b-col v-if="teamMember.twitterAt" md="1">
                   <span v-if="teamMember.twitterAt">
                     <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.twitterAt)">
                       <b-icon icon="at" font-scale="2"/>
                     </b-button>
                   </span>
                 </b-col>
-                <b-col md="1">
+                <b-col v-if="teamMember.linkedInLink" md="1">
                   <span v-if="teamMember.linkedInLink">
                     <b-button variant="link" class="team-member-icon" v-on:click="urlClick(teamMember.linkedInLink)">
                       <b-icon icon="person-bounding-box" font-scale="2"/>

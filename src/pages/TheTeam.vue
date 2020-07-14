@@ -6,11 +6,11 @@
         <div class="main">
           <div class="team-header">The Team</div>
           <div class="team-header-sub"><i>(as it currently stands).</i></div>
-          <transition-group name="list" tag="p">
+          <ul class="team-members">
             <li v-for="teamMember in teamMembers" :key="teamMember.name">
               <TeamMember v-bind:teamMember="teamMember" />
             </li>
-          </transition-group>
+          </ul>
         </div>
       </div>
     </transition>
