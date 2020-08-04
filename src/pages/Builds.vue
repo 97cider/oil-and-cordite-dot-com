@@ -13,13 +13,23 @@
             <br/><br/><br/>
           </div>
           <div class="download-container">
-            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1ABIWqeOyLyrSiEk4U83mR9mAIb_45fFb/view" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
+            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1ABIWqeOyLyrSiEk4U83mR9mAIb_45fFb/view?usp=sharing" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
           </div>
           <br/><br/><br/>
           <div class="game-description">
             <h2>Patch Notes:</h2>
+            <h3> 08/24/2020: Beta Build </h3>
+              The build located above is the current <b>Beta</b> build of the project. There are many aspects of the project subject to change.
+              <br/>
+              The changes for the Beta build are as follows: 
+              <ul>
+                <li>Added additional levels and art assets</li>
+                <li>Added piercing effects and UI</li>
+                <li>Lava levels and corresponding assets</li>
+                <li>Updated clouds</li>
+              </ul>
+            <br/>
             <h3> 07/26/2020: Alpha Build </h3>
-              The build located above is the current <b>Alpha</b> build of the project. There are many aspects of the project subject to change.
               <br/>
               The changes for the Alpha build are as follows: 
               <ul>
