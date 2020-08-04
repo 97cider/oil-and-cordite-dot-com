@@ -7,14 +7,27 @@
           <div class="team-header">The Game</div>
           <div class="game-description">
             Using the button below, you can download the most recent playable release of Oil and Cordite. Additionally, you can find patch notes below. 
+            <br/>
+            After clicking the download button, you will be navigated to a Google Drive sharable link. You can download the build by clicking the Download button 
+            in the upper right hand corner of the screen.
+            <br/><br/><br/>
           </div>
           <div class="download-container">
-            <b-button variant="outline-primary" class="download-button"> Download! </b-button>
+            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1fk95MorRm5L25MZRlUGCABwAjX-BFXGZ/view?usp=sharing" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
           </div>
           <br/><br/><br/>
           <div class="game-description">
-            <h3>Patch Notes:</h3>
-              <i> There are no releases for this project at the moment. Patch notes are updated when a release is scheduled through GitHub.</i>
+            <h2>Patch Notes:</h2>
+            <h3> 07/26/2020: Alpha Build </h3>
+              The build located above is the current <b>Alpha</b> build of the project. There are many aspects of the project subject to change.
+              <br/>
+              The changes for the Alpha build are as follows: 
+              <ul>
+                <li>UI changes and art refactor</li>
+                <li>Tutorial level flow and greybox</li>
+                <li>Ship controls and banking</li>
+                <li>Wielded weapons (laser)</li>
+              </ul>
           </div>
         </div>
       </div>
@@ -30,7 +43,7 @@ import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import '../scss/style.scss';
-import { BButton } from 'bootstrap-vue';
+import { BButton, BIcon } from 'bootstrap-vue';
 
 export default {
   name: 'App',
