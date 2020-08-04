@@ -13,7 +13,7 @@
             <br/><br/><br/>
           </div>
           <div class="download-container">
-            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1fk95MorRm5L25MZRlUGCABwAjX-BFXGZ/view?usp=sharing" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
+            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1ABIWqeOyLyrSiEk4U83mR9mAIb_45fFb/view" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
           </div>
           <br/><br/><br/>
           <div class="game-description">
