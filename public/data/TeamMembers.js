@@ -76,7 +76,7 @@ export default {
             iconPath: "logo.png"
         },
         {
-            name: "Ehtan Scheidlmeier",
+            name: "Ethan Scheidlmeier",
             description: "Writer",
             role: "Writer",
             iconPath: "logo.png"
