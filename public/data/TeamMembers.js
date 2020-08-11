@@ -1,16 +1,6 @@
 export default {
     teamMembers: [
         {
-            name: "Sean McFadden",
-            description: "I am a programmer and web developer with an interest in creative coding and computer graphics. I also really enjoy making clouds.",
-            role: "Graphics Programmer",
-            iconPath: "me.jpg",
-            websiteLink: "www.google.com",
-            twitterAt: "https://twitter.com/warmtapwater",
-            personalWebLink: "http://seankmcfadden.com",
-            linkedInLink: "https://www.linkedin.com/in/sean-mcfadden-27511612a/"
-        },
-        {
             name: "Jake Dixey",
             description: "Game Programmer and Computer Science Major, his favorites are Action RPGs and/or games that challenge you and force you to improve. Seeing oneself grow is one of the most compelling things about games.",
             role: "Team Lead",
@@ -24,6 +14,16 @@ export default {
             iconPath: "jm.png",
             twitterAt: "https://twitter.com/JakeMckenna1025",
             linkedInLink: "https://www.linkedin.com/in/jake-mckenna-68a081108/"
+        },
+        {
+            name: "Sean McFadden",
+            description: "I am a programmer and web developer with an interest in creative coding and computer graphics. I also really enjoy making clouds.",
+            role: "Graphics Programmer",
+            iconPath: "me.jpg",
+            websiteLink: "www.google.com",
+            twitterAt: "https://twitter.com/warmtapwater",
+            personalWebLink: "http://seankmcfadden.com",
+            linkedInLink: "https://www.linkedin.com/in/sean-mcfadden-27511612a/"
         },
         {
             name: "Taylor Andrews",
