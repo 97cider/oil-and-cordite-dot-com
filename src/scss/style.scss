@@ -16,6 +16,7 @@ body {
     color:#585560;
     size: 32px;
     font-size: 40px;
+    max-height: 154px;
 }
 
 .main-container {
@@ -34,26 +35,33 @@ body {
 .main-view {
     margin-left: 100px;
     width: 0%;
-    height: 815px;
+    min-height: 720px;
+    max-height: 815px;
+    height: 100%;
     background-color: #212226e3;
     position: absolute;
     transition: width 2s;
     overflow-y: scroll;
     &.home {
         width: 30%;
-        overflow:hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        min-width: 480px;
     }
 
     &.gallery {
         width: 60%;
+        min-width: 720px;
     }
 
     &.builds {
         width: 40%;
+        min-width: 720px;
     }
 
     &.team {
         width: 40%;
+        min-width: 720px;
     }
 }
 
@@ -144,6 +152,7 @@ body {
     background-color: #212226;
     text-align: center;
     padding-top: 10px;
+    max-height: 154px;
 }
 
 .header-color-bar {
@@ -172,14 +181,27 @@ body {
 }
 
 .team-logo {
-    width: 80px;
-    height: 80px;
+    width: 10%;
+    height: 10%;
+
+    min-width: 20px;
+    min-height: 20px;
+
+    max-width: 80px;
+    max-height: 80px;
     margin-right: 10px;
 }
 
 .title-logo {
-    width: 472px;
-    height: 97px;
+    width: 20%;
+    height: 20%;
+
+    max-width: 472px;
+    max-height: 97px;
+
+    min-width: 276;
+    min-height: 48;
+
 }
 
 .header-link {
