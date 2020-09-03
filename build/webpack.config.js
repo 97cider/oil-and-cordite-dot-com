@@ -1,5 +1,6 @@
 'use strict';
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
@@ -37,8 +38,16 @@ module.exports = {
       ]
     },
     plugins: [
-      new VueLoaderPlugin()
+      new VueLoaderPlugin(),
+      new HtmlWebpackPlugin({
+        filename: 'index.html',
+        template: 'index.html',
+        inject: true
+      }),
     ],
+    output: {
+      filename: '[name].[chunkhash].js'
+    },
     resolve: {
       alias: {
         'vue$': 'vue/dist/vue.esm.js'
