@@ -2,6 +2,7 @@
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
+const WebpackCopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -43,6 +44,11 @@ module.exports = {
         filename: 'index.html',
         template: 'index.html',
         inject: true
+      }),
+      new WebpackCopyPlugin({
+        patterns: [
+          { from: 'public', to: 'public' }
+        ]
       }),
     ],
     output: {

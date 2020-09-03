@@ -15,7 +15,8 @@
             <br/><br/>
 
             <h3>What is Oil and Cordite?</h3>
-            Oil and Cordite is an action packed flight game currently in development. The game features fast paced action and a intuitive control system. This should probably be replaced with some cool trailers or gameplact screen shots! 
+            Oil and Cordite is an action packed flight game currently in development. The game features fast paced action and a intuitive control system. <a href="https://www.youtube.com/watch?v=t_VNwvuDBDc&feature=youtu.be">Click Here to View Our Trailer!</a>
+ 
             
             <br/><br/><br/>
 
@@ -26,7 +27,7 @@
 
             <h3>What Platforms Support Oil and Cordite?</h3>
             Oil and Cordite currently only supports PC, although a Switch port may be possible.
-            
+
             <br/><br/><br/>
 
           </div>

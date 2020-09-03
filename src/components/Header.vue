@@ -1,7 +1,7 @@
 <template>
   <div class="header-container">
-    <img class="team-logo" alt="group-logo" src="src/assets/logo.png">
-    <img class="title-logo" alt="title-logo" src="src/assets/title-logo.png">
+    <img class="team-logo" alt="group-logo" src="public/assets/logo.png">
+    <img class="title-logo" alt="title-logo" src="public/assets/title-logo.png">
     <b-container fluid="true" class="header-links">
       <b-row class="justify-content-md-center" align-content="center">
         <b-col md="1" align-self="center">
