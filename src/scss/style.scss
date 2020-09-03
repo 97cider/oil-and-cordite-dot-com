@@ -44,7 +44,7 @@ body {
     overflow-y: scroll;
     &.home {
         width: 30%;
-        overflow-y: scroll;
+        overflow-y: hidden;
         overflow-x: hidden;
         min-width: 480px;
     }
