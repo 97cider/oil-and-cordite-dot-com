@@ -12,11 +12,22 @@
             <br/><br/><br/>
           </div>
           <div class="download-container">
-            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1ABIWqeOyLyrSiEk4U83mR9mAIb_45fFb/view?usp=sharing" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
+            <b-button variant="outline-primary" class="download-button" href="https://drive.google.com/file/d/1IRNbEq92xjBvsITrmn0s8EPwDwQVMxzF/view?usp=sharing" download> Download! <b-icon icon="box-arrow-up-right"></b-icon> </b-button>
           </div>
           <br/><br/><br/>
           <div class="game-description">
             <h2>Patch Notes:</h2>
+              <h3> 09/03/2020: Gold Build </h3>
+              The build located above is the current <b>Gold!</b> build of the project. Thanks to everyone who contributed, it was an honor!
+              <br/>
+              The changes for the Gold build are as follows: 
+              <ul>
+                <li>Added Final Level and ??? Encounter</li>
+                <li>Updated UI Across the Game</li>
+                <li>Upgraded Tutorial Level</li>
+                <li>Fixed A Bunch of Bugs</li>
+              </ul>
+            <br/>
             <h3> 08/24/2020: Beta Build </h3>
               The build located above is the current <b>Beta</b> build of the project. There are many aspects of the project subject to change.
               <br/>

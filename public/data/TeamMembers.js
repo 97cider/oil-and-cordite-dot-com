@@ -58,28 +58,28 @@ export default {
             iconPath: "rc.jpg"
         },
         {
+            name: "Tara Boonngamanong",
+            description: "My name is Tara and I’m a Game Design student. My role for this project is a UI designer.",
+            role: "Artist",
+            iconPath: "tb.jpg"
+        },
+        {
             name: "Jack Harding",
             description: "Programmer",
             role: "Programmer",
-            iconPath: "logo.png"
+            iconPath: "jh.jpg"
         },
         {
             name: "AJ Giomboni",
             description: "Artist",
             role: "Artist",
-            iconPath: "logo.png"
+            iconPath: "aj.jpg"
         },
         {
             name: "Ethan Scheidlmeier",
             description: "Writer",
             role: "Writer",
-            iconPath: "logo.png"
-        },
-        {
-            name: "Tara Boonngamanong",
-            description: "Artist",
-            role: "Artist",
-            iconPath: "logo.png"
+            iconPath: "es.jpg"
         }
     ]
 } 

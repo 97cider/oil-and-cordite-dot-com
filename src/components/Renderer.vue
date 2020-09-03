@@ -75,8 +75,8 @@ export default {
         groundMirror.rotateX( - Math.PI / 2 );
         this.scene.add( groundMirror );
 
-        this.scene.add( new Three.HemisphereLight( 0xafb2d8,  0x6a4d77, 1));
-        this.scene.fog = new Three.FogExp2( 0xefb5ec, 0.0012 );
+        this.scene.add( new Three.HemisphereLight( 0xafb2d8,  0x482f53, 1));
+        this.scene.fog = new Three.FogExp2( 0x482f53, 0.0012 );
 
         let lightTwo = new Three.DirectionalLight( 0x002288 );
 
