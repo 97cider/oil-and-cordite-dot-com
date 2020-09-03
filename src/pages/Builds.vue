@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <transition name="fade" appear="true">
-      <div class="main-container"> 
+      <div class="inner-container"> 
         <div class="main">
           <div class="team-header">The Game</div>
           <div class="game-description">

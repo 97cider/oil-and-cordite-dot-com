@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Header/>
     <div class="main-container"> 
       <div class="main">
         404 Not Found

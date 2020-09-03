@@ -10,7 +10,7 @@ export default {
         {
             name: "Jake McKenna",
             description: "I specialize in narrative games. My main interest is how we, as game designers, can take a story and put the player inside of it.",
-            role: "Programmer",
+            role: "Design Lead",
             iconPath: "jm.png",
             twitterAt: "https://twitter.com/JakeMckenna1025",
             linkedInLink: "https://www.linkedin.com/in/jake-mckenna-68a081108/"
@@ -41,7 +41,7 @@ export default {
         {
             name: "Peter Eldredge",
             description: "I'm a game programmer who hates programming and playing video games (except for Doom Eternal)",
-            role: "Programmer",
+            role: "Lead Programmer",
             iconPath: "pe.jpg"
         }
         ,
@@ -56,12 +56,6 @@ export default {
             description: "I'm Rex, the 3D asset guy. I make models and stuff. (That's it, that's all I could come up with)",
             role: "Artist",
             iconPath: "rc.jpg"
-        },
-        {
-            name: "Abigail Mickey",
-            description: "2D Artist",
-            role: "Artist",
-            iconPath: "am.jpg"
         },
         {
             name: "Jack Harding",

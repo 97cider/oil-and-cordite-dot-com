@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <Header />
     <transition name="fade" appear="true">
-      <div class="main-container"> 
+      <div class="inner-container"> 
         <div class="main">
           <div class="game-description">
 
@@ -42,10 +41,12 @@
 import '../scss/style.scss';
 import Header from '../components/Header.vue';
 import HelloWorld from '../components/HelloWorld.vue';
+import Renderer from '../components/Renderer.vue';
 export default {
   name: 'Home',
   components: {
     HelloWorld,
+    Renderer,
     Header
   }
 }
