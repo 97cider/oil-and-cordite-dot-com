@@ -5,16 +5,16 @@
     <b-container fluid="true" class="header-links">
       <b-row class="justify-content-md-center" align-content="center">
         <b-col md="1" align-self="center">
-          <router-link to="/" class="header-link primary">Home</router-link>
+          <router-link v-on:click.native="navToHome" to="/" class="header-link primary">Home</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/gallery" class="header-link primary">Gallery</router-link>
+          <router-link v-on:click.native="navToGallery" to="/gallery" class="header-link primary">Gallery</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/meet-the-team" class="header-link primary">The Team</router-link>
+          <router-link v-on:click.native="navToTeam" to="/meet-the-team" class="header-link primary">The Team</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link to="/builds" class="header-link primary">Play</router-link>
+          <router-link v-on:click.native="navToPlay" to="/builds" class="header-link primary">Play</router-link>
         </b-col>
         <b-col md="1" align-self="center">
           <a href="https://github.com/PeterEldredge/OilAndCordite" target="_blank" class="header-link secondary">Github <b-icon icon="box-arrow-up-right"></b-icon></a>
@@ -42,6 +42,23 @@ export default {
   },
   props: {
     msg: String
+  },
+  methods: {
+    navToTeam: function () {
+      this.$parent.navTeam();
+    },
+    navToHome: function () {
+      this.$parent.navHome();
+    },
+    navToGallery: function () {
+      this.$parent.navGallery();
+    },
+    navToBuilds: function () {
+      this.$parent.navBuilds();
+    },
+    navToPlay: function () {
+      this.$parent.navPlay();
+    }
   }
 }
 </script>

@@ -6,7 +6,7 @@
             <router-view/>
         </div>
         <div class="main-renderer-only-desktop">
-            <Renderer />
+            <Renderer ref="renderer" />
         </div>
      </div>
   </div>
@@ -20,6 +20,21 @@ export default {
   components: {
       Header,
       Renderer
+  },
+  methods: {
+    navTeam: function () {
+      // alert("damn bro");
+      this.$refs.renderer.navigateToTeam();
+    },
+    navHome: function () {
+      this.$refs.renderer.navigateToHome();
+    },
+    navGallery: function () {
+      this.$refs.renderer.navigateToGallery();
+    },
+    navPlay: function () {
+      this.$refs.renderer.navigateToPlay();
+    }
   }
 }
 </script>
