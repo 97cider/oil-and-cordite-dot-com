@@ -146,7 +146,7 @@ export default {
             }
         });
     },
-    navigateToGallery: function () {
+    navigateToTeam: function () {
         let _this = this;
         let targetLocation = new Three.Vector3(130.7, 140, -147.9);
         TweenLite.to({}, {
@@ -156,7 +156,7 @@ export default {
             }
         });
     },
-    navigateToTeam: function () {
+    navigateToPlay: function () {
         let _this = this;
         let targetLocation = new Three.Vector3(-50.7, 30, -100.9);
         TweenLite.to({}, {
@@ -166,7 +166,7 @@ export default {
             }
         });
     },
-    navigateToPlay: function () {
+    navigateToGallery: function () {
         let _this = this;
         let targetLocation = new Three.Vector3(220.7, 50, -120.9);
         TweenLite.to({}, {

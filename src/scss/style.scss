@@ -31,12 +31,67 @@ body {
     overflow-y: auto;
 }
 
-.main-blog {
+.main-view {
     margin-left: 100px;
-    width: 30%;
+    width: 0%;
+    height: 800px;
+    background-color: #212226e3;
+    position: absolute;
+    transition: width 2s;
+    overflow-y: scroll;
+    &.home {
+        width: 30%;
+        overflow:hidden;
+    }
+
+    &.gallery {
+        width: 60%;
+    }
+
+    &.builds {
+        width: 40%;
+    }
+
+    &.team {
+        width: 40%;
+    }
+}
+
+.main-gallery {
+    margin-left: 100px;
+    width:60%;
     height: 100%;
     background-color: #585560ee;
     position: absolute;
+}
+
+.main-builds {
+    margin-left: 100px;
+    width: 40%;
+    height: 100%;
+    background-color: #585560ee;
+    position: absolute;
+}
+
+.main-team {
+    margin-left: 100px;
+    width: 40%;
+    height: 100%;
+    background-color: #585560ee;
+    position: absolute;
+}
+
+.pitch-container {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6068bb;
+    padding: 10px;
+    margin-top:10px;
+}
+
+.pitch-text {
+    color: #808291;
 }
 
 @media screen and (min-width: 600px){
@@ -61,11 +116,19 @@ body {
     }
 }
 
+
+.view {
+    color: white;
+}
+
 .main {
     list-style-type: none;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    &.home {
+        width: 30%;
+    }
 }
 
 .inner-container {
@@ -138,7 +201,7 @@ ul {
 }
 
 h3 {
-    color: #ef8555;
+    color: #6068bb;
 }
 
 .download-container {
@@ -148,11 +211,11 @@ h3 {
 }
 
 .download-button {
-    border-color: #ef8555 !important;
+    border-color: #6068bb !important;
     color: white !important;
 
     &:hover {
-        background-color: #be375f !important;
+        background-color: #6a4d77 !important;
     }
 }
 

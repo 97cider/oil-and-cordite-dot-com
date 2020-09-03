@@ -2,9 +2,7 @@
   <div id="app">
     <Header/>
       <div class="main-container">
-        <div class="main-blog">
-            <router-view/>
-        </div>
+        <router-view/>
         <div class="main-renderer-only-desktop">
             <Renderer ref="renderer" />
         </div>

@@ -1,10 +1,9 @@
 <template>
-  <div id="app">
-    <Header />
+  <div class="main-view builds">
     <transition name="fade" appear="true">
       <div class="inner-container"> 
         <div class="main">
-          <div class="team-header">The Game</div>
+          <div class="team-header"><h3>The Game</h3></div>
           <div class="game-description">
             Using the button below, you can download the most recent playable release of Oil and Cordite. Additionally, you can find patch notes below. 
             <br/>

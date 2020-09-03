@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <Header />
+  <div class="main-view gallery">
     <transition name="fade" appear="true">
       <div class="inner-container"> 
         <div class="main">

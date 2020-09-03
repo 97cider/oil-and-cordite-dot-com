@@ -1,10 +1,9 @@
 <template>
-  <div id="app">
-    <Header />
+  <div class="main-view team">
     <transition name="fade" appear="true">
       <div class="inner-container"> 
         <div class="main">
-          <div class="team-header">The Team</div>
+          <div class="team-header"><h3>The Team</h3></div>
           <div class="team-header-sub"><i>(as it currently stands).</i></div>
           <ul class="team-members">
             <li v-for="teamMember in teamMembers" :key="teamMember.name">

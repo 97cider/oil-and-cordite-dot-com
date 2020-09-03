@@ -14,14 +14,16 @@
           <router-link v-on:click.native="navToTeam" to="/meet-the-team" class="header-link primary">The Team</router-link>
         </b-col>
         <b-col md="1" align-self="center">
-          <router-link v-on:click.native="navToPlay" to="/builds" class="header-link primary">Play</router-link>
+          <router-link v-on:click.native="navToPlay" to="/play" class="header-link primary">Play</router-link>
         </b-col>
         <b-col md="1" align-self="center">
           <a href="https://github.com/PeterEldredge/OilAndCordite" target="_blank" class="header-link secondary">Github <b-icon icon="box-arrow-up-right"></b-icon></a>
         </b-col>
+        <b-col md="1" align-self="center">
+          <a href="https://drive.google.com/file/d/1w8Z_Ao5_cbmh4Zw1A5nqN6Fi2fAsVnAu/view" target="_blank" class="header-link secondary">Press Kit <b-icon icon="box-arrow-up-right"></b-icon></a>
+        </b-col>
       </b-row>
     </b-container>
-    <div class="header-color-bar"></div>
   </div>
 </template>
 
